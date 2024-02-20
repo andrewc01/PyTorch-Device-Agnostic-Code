@@ -7,13 +7,15 @@ Create for my personal use. Since I use macOS and Linux server with NVIDIA GPU t
 * Download this code
 * Import this code like below
     ```python
-    import get_default_device
+    from device_agnostic_code import get_default_device
     ```
 
 * And check what GPU you're using
     ```python
     device = get_default_device()
+    device
     ```
 
 ## To-dos
 * Adding code for multiple GPU
+* Make helper python file
