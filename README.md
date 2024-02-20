@@ -7,12 +7,12 @@ Create for my personal use. Since I use macOS and Linux server with NVIDIA GPU t
 * Download this code
 * Import this code like below
     ```python
-    from device import get_default_device
+    import get_default_device
     ```
+
 * And check what GPU you're using
     ```python
     device = get_default_device()
-    device
     ```
 
 ## To-dos
