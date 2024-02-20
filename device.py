@@ -6,6 +6,4 @@ def get_default_device():
     elif torch.backends.mps.is_available():
         return torch.device('mps') # apple silicon gpu
     else:
-        return torch.device('cpu')
-    
-device = get_default_device()
+        return torch.device('cpu') # default
